@@ -5,18 +5,27 @@ body {
 }
 
 h1 {
-    margin: 50px auto 0 auto;
+    color: #66BFBF;
     font-size: 5.625rem;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    margin: 50px auto 0 auto;
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif; 
+}
+
+a{
+    color: #11999E;
 }
 
 .myimage {
@@ -34,7 +43,7 @@ h3 {
 .bottom-cloud {
     width: 200px;
     position: absolute;
-    left: 500px;
+    left: 400px;
     top: 500px;
 }
 
@@ -42,21 +51,29 @@ h3 {
 .top-container {
     position: relative;
     padding-top: 200px;
-    background-color: rgb(42, 228, 166);
+    background-color: #EAF6F6;
 }
 
-.middle-container {
-    
+.skill-row {
+    line-height: 4;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    width: 50%;
 }
 
-.bottom-container {
-    
+.C_skill {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+
 }
 
-/* .top-container, .middle-container, .bottom-container {
-    height: 200px;
-    width: 200px;  
-} */
+.Cplus_skill {
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+}
+
 
 .dev {
     text-decoration: underline;
