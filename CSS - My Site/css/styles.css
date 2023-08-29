@@ -22,58 +22,92 @@ h2 {
 h3 {
     color: #11999E;
     font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;
 }
 
-a{
-    color: #11999E;
+p {
+    font-size: 1.15rem;
 }
 
 .myimage {
     border-radius: 50%;
-    height: 200px;
+    height: 12.5rem;
 }
 
 .top-cloud {
-    width: 200px;
+    width: 12.5rem;
     position: absolute;
-    right: 500px;
-    top: 100px;
+    right: 31.25rem;
+    top: 6.25rem;
 }
 
 .bottom-cloud {
-    width: 200px;
+    width: 12.5rem;
     position: absolute;
-    left: 400px;
-    top: 500px;
+    left: 25rem;
+    top: 31.25rem;
 }
 
 
 .top-container {
     position: relative;
-    padding-top: 200px;
+    padding-top: 12.5rem;
     background-color: #EAF6F6;
+}
+
+.bottom-container {
+    background-color: #11999E;
+    margin: 0;
+    padding: 1.5rem;
 }
 
 .skill-row {
     line-height: 4;
-    margin: 100px auto 200px auto;
+    margin: 6.25rem auto 12.5rem auto;
     text-align: left;
     width: 50%;
 }
 
 .C_skill {
     float: left;
-    width: 25%;
-    margin-right: 30px;
+    width:20%;
+    margin-right: 1.875rem;
 
 }
 
 .Cplus_skill {
     float: right;
-    width: 25%;
-    margin-left: 30px;
+    width: 20%;
+    margin-left: 1.875rem;
 }
 
+.contact-me {
+    margin: 3rem;
+}
+
+.btn {
+    background-color: #11999E;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    line-height: 3;
+}
+
+.btn:hover {
+    color: #11999E;
+    background-color: white;
+    border: solid;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: white;
+}
 
 .dev {
     text-decoration: underline;
