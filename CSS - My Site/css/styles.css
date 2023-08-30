@@ -34,31 +34,22 @@ p {
     height: 12.5rem;
 }
 
-.top-cloud {
-    width: 12.5rem;
-    position: absolute;
-    right: 31.25rem;
-    top: 6.25rem;
-}
-
-.bottom-cloud {
-    width: 12.5rem;
-    position: absolute;
-    left: 25rem;
-    top: 31.25rem;
-}
-
-
 .top-container {
     position: relative;
-    padding-top: 12.5rem;
-    background-color: #EAF6F6;
+    margin: 0;
+    padding: 1.5rem;
 }
 
 .bottom-container {
     background-color: #11999E;
     margin: 0;
     padding: 1.5rem;
+}
+
+.profile {
+    width: 50%;
+    text-align: left;
+    margin: 6.25rem auto 12.5rem auto;
 }
 
 .skill-row {
